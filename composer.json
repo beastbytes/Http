@@ -1,0 +1,32 @@
+{
+    "name": "beastbytes/http",
+    "type": "library",
+    "description": "Http Header, Method, and Status enums",
+    "keywords": [
+        "http",
+        "method",
+        "status",
+        "header"
+    ],
+    "support": {
+        "issues": "https://github.com/beastbytes/http/issues",
+        "source": "https://github.com/beastbytes/http"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Chris Yates",
+            "email": "chris.l.yates@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.1",
+    },
+    "autoload": {
+        "psr-4": {
+            "BeastBytes\\Http\\": "src"
+        }
+    }
+}
